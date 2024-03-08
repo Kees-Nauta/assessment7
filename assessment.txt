@@ -1,0 +1,20 @@
+insert 517.8108 ms
+append 1.8327 ms
+
+largearr: insert 5.0069 ms
+append 390.4 μs
+
+medArr:insert 111 μs
+append 95.6 μs
+
+smallArray:insert 28.7 μs
+append 66.6 μs
+
+tinyArray:insert 18.5 μs
+append 56.9 μs
+
+the insert function is exponential in it's runtime
+the append function scales linear
+
+the insert function funs slower because everytime you add a number to the array you have to change the index number over every other number
+
